@@ -34,6 +34,14 @@ nav a:hover {
   color: #00adb5;
 }
 
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* メイン */
 main {
   max-width: 900px;
