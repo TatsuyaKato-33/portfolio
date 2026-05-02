@@ -141,3 +141,26 @@ footer {
   background: #222;
   color: white;
 }
+
+/* レスポンシブ */
+@media (max-width: 768px) {
+
+  /* ヘッダー縦並び */
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* ワークスを縦並び */
+  .works-container {
+    flex-direction: column;
+  }
+  .work-card {
+    width: 100%;
+  }
+}
