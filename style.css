@@ -27,6 +27,11 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00adb5;
 }
 
 /* メイン */
@@ -43,6 +48,11 @@ section {
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+section:hover {
+  transform: translateY(-5px);
 }
 
 h2 {
@@ -63,6 +73,11 @@ h2 {
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
+  transition: 0.3s;
+}
+
+#skills li:hover {
+  background: #00abd5;
 }
 
 /* フッター */
